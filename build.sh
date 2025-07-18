@@ -19,9 +19,8 @@
 # cmake --build build -j$(nproc)
 # sudo cmake --install build
 
-
 # 编译器前缀（注意路径必须真实存在）
-CROSS_PREFIX="/home/chenhequn/01_project/rk3588_linux_tve1206r/prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu"
+CROSS_PREFIX="/opt/gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu"
 
 # 编译器参数
 ARMCC_FLAGS="-funsafe-math-optimizations"
